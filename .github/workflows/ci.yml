@@ -64,7 +64,7 @@ jobs:
           scan-ref: '.'
           format: 'sarif'
           output: 'trivy-results.sarif'
-          severity: 'CRITICAL,HIGH'
+          severity: 'CRITICAL,HIGH,MEDIUM'
 
       # Upload Trivy scan results to GitHub Security tab
       - name: Upload Trivy scan results to GitHub Security tab
